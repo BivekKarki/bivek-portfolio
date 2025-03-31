@@ -41,7 +41,7 @@ export default function ProjectsSection() {
       id: 1,
       title: "E-Commerce Platform",
       description: "A full-featured online store with payment integration, user authentication, and admin dashboard.",
-      image: "/placeholder.svg?height=400&width=600",
+      image: "/images/bivek1.jpg?height=400&width=600",
       category: "web",
       tags: ["Next.js", "Stripe", "MongoDB"],
       links: {
@@ -53,7 +53,7 @@ export default function ProjectsSection() {
       id: 2,
       title: "Travel Companion App",
       description: "A mobile application for travelers to plan trips, discover attractions, and share experiences.",
-      image: "/placeholder.svg?height=400&width=600",
+      image: "/images/bivek1.jpg?height=400&width=600",
       category: "mobile",
       tags: ["React Native", "Firebase", "Google Maps API"],
       links: {
@@ -65,7 +65,7 @@ export default function ProjectsSection() {
       id: 3,
       title: "Financial Dashboard",
       description: "An interactive dashboard for tracking investments, expenses, and financial goals.",
-      image: "/placeholder.svg?height=400&width=600",
+      image: "/images/bivek1.jpg?height=400&width=600",
       category: "web",
       tags: ["React", "D3.js", "Node.js"],
       links: {
@@ -78,7 +78,7 @@ export default function ProjectsSection() {
       title: "Health & Fitness App",
       description:
         "A comprehensive fitness tracking application with workout plans, nutrition tracking, and progress analytics.",
-      image: "/placeholder.svg?height=400&width=600",
+      image: "/images/bivek1.jpg?height=400&width=600",
       category: "mobile",
       tags: ["Flutter", "Firebase", "RESTful API"],
       links: {
@@ -91,7 +91,7 @@ export default function ProjectsSection() {
       title: "Corporate Website Redesign",
       description:
         "Complete redesign of a corporate website focusing on improved user experience and conversion rates.",
-      image: "/placeholder.svg?height=400&width=600",
+      image: "/images/bivek1.jpg?height=400&width=600",
       category: "design",
       tags: ["Figma", "UI/UX", "Prototyping"],
       links: {
@@ -103,7 +103,7 @@ export default function ProjectsSection() {
       id: 6,
       title: "AI Content Generator",
       description: "An application that uses AI to generate marketing content for businesses.",
-      image: "/placeholder.svg?height=400&width=600",
+      image: "/images/bivek1.jpg?height=400&width=600",
       category: "web",
       tags: ["React", "OpenAI API", "Node.js"],
       links: {
@@ -161,7 +161,7 @@ export default function ProjectsSection() {
                 key={project.id}
                 variants={itemVariants}
                 whileHover={{ y: -10 }}
-                transition={{ duration: 0.3 }}
+                transition={{ duration: 0.2 }}
               >
                 <Card className="overflow-hidden h-full bg-background border-border/50 hover:border-primary/50 transition-colors duration-300">
                   <div className="relative overflow-hidden aspect-video">
