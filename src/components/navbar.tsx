@@ -76,16 +76,22 @@ export default function Navbar() {
                 )}
               </Button>
             )}
-            
-              <a
+              <motion.a
                 href="/BivekKarki_Resume_Frontenddeveloper.pdf"
                 download="BivekKarki_Resume_Frontenddeveloper.pdf"
               >
+                
                 <Button variant="default" size="sm" className="bg-secondary hover:bg-secondary/90">
+                <motion.span
+                    className="flex items-center"
+                    whileHover={{ y: 2 }}
+                    transition={{ type: "spring", stiffness: 400, damping: 10 }}
+                  >
                 <Download className="mr-2 h-4 w-4" />
-            Resume 
-            </Button>
-            </a>
+                Resume 
+              </motion.span>
+                </Button>
+            </motion.a>
             
           </div>
 
