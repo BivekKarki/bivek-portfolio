@@ -207,7 +207,7 @@ export default function HeroSection() {
                   className="flex items-center gap-4 pt-4"
                 >
                   <motion.div variants={socialAnimation}>
-                    <Link href="https://github.com" target="_blank" rel="noopener noreferrer">
+                    <Link href="https://github.com/BivekKarki" target="_blank" rel="noopener noreferrer">
                       <Button variant="ghost" size="icon" className="rounded-full">
                         <Github className="h-5 w-5" />
                       </Button>
@@ -215,7 +215,7 @@ export default function HeroSection() {
                   </motion.div>
 
                   <motion.div variants={socialAnimation}>
-                    <Link href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+                    <Link href="https://www.linkedin.com/in/bivek-karki-396409172/" target="_blank" rel="noopener noreferrer">
                       <Button variant="ghost" size="icon" className="rounded-full">
                         <Linkedin className="h-5 w-5" />
                       </Button>

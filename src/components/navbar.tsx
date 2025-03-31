@@ -76,15 +76,17 @@ export default function Navbar() {
                 )}
               </Button>
             )}
-            <Button variant="default" size="sm" className="bg-secondary hover:bg-secondary/90">
-              <Download className="mr-2 h-4 w-4" />
+            
               <a
                 href="/BivekKarki_Resume_Frontenddeveloper.pdf"
                 download="BivekKarki_Resume_Frontenddeveloper.pdf"
               >
+                <Button variant="default" size="sm" className="bg-secondary hover:bg-secondary/90">
+                <Download className="mr-2 h-4 w-4" />
             Resume 
-            </a>
             </Button>
+            </a>
+            
           </div>
 
           <div className="md:hidden flex items-center space-x-4">
