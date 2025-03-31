@@ -168,7 +168,8 @@ export default function ProjectsSection() {
                     <Image
                       src={project.image || "/images/bivek1.jpg"}
                       alt={project.title}
-                      className="w-full h-full object-cover transition-transform duration-500 hover:scale-105"
+                      className=" object-cover transition-transform duration-500 hover:scale-105"
+                      fill
                     />
                   </div>
                   <CardContent className="p-6">

@@ -256,7 +256,8 @@ export default function HeroSection() {
                   <Image
                     src="/images/bivek1.jpg"
                     alt="Bivek Karki"
-                    className="w-full h-full object-cover"
+                    className="object-cover"
+                    fill
                   />
                 </div>
               </div>

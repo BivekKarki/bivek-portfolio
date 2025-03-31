@@ -60,7 +60,8 @@ export default function AboutSection() {
               <Image
                 src="/images/bivek.jpg?height=600&width=480"
                 alt="Bivek Karki Working"
-                className="w-full h-full object-cover"
+                className="object-cover"
+                fill
               />
             </motion.div>
           </motion.div>

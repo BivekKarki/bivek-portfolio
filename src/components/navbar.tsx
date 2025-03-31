@@ -81,7 +81,6 @@ export default function Navbar() {
               <a
                 href="/BivekKarki_Resume_Frontenddeveloper.pdf"
                 download="BivekKarki_Resume_Frontenddeveloper.pdf"
-                className="hidden md:block bg-green-500 text-white px-4 py-2 rounded-full hover:bg-green-600 transition"
               >
             Resume 
             </a>
