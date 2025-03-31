@@ -56,7 +56,7 @@ export default function ContactSection() {
         subject: "",
         message: "",
       })
-      alert("Thank you for your message! I'll get back to you soon.")
+      alert("Thank you for your message! I&apos;ll get back to you soon.")
     }, 1500)
   }
 
@@ -96,7 +96,7 @@ export default function ContactSection() {
             <h2 className="text-3xl md:text-4xl font-bold mb-4">Get In Touch</h2>
           </motion.div>
           <motion.p variants={itemVariants} className="text-muted-foreground">
-            Have a project in mind or want to discuss a potential collaboration? Feel free to reach out and I'll get
+            Have a project in mind or want to discuss a potential collaboration? Feel free to reach out and I&apos;ll get
             back to you as soon as possible.
           </motion.p>
         </motion.div>
@@ -111,7 +111,7 @@ export default function ContactSection() {
             <motion.div variants={itemVariants}>
               <h3 className="text-2xl font-semibold mb-6">Contact Information</h3>
               <p className="text-muted-foreground mb-8">
-                Feel free to reach out through any of the following channels. I'm always open to discussing new
+                Feel free to reach out through any of the following channels. I&apos;m always open to discussing new
                 projects, creative ideas, or opportunities.
               </p>
             </motion.div>
@@ -119,7 +119,7 @@ export default function ContactSection() {
             <div className="space-y-6">
               {contactInfo.map((item, index) => (
                 <motion.a
-                  key={item.title}
+                  key={index}
                   href={item.link}
                   variants={itemVariants}
                   className="flex items-start gap-4 p-4 rounded-lg bg-background hover:bg-muted/20 transition-colors duration-300 border border-border/50"
@@ -140,8 +140,8 @@ export default function ContactSection() {
             >
               <h4 className="font-semibold text-secondary mb-2">Available for Freelance</h4>
               <p className="text-sm">
-                I'm currently available for freelance work. If you have a project that needs some creative direction,
-                I'd love to hear about it.
+                I&apos;m currently available for freelance work. If you have a project that needs some creative direction,
+                I&apos;d love to hear about it.
               </p>
             </motion.div>
           </motion.div>

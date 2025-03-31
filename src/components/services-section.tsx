@@ -63,7 +63,7 @@ export default function ServicesSection() {
         icon: <BarChart className="h-8 w-8" />,
         title: "SEO Optimization",
         description:
-          "Improving your website's visibility in search engines with data-driven strategies that increase organic traffic and conversions.",
+          "Improving your website&apos;s visibility in search engines with data-driven strategies that increase organic traffic and conversions.",
       },
       {
         icon: <Globe className="h-8 w-8" />,

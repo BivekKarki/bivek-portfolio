@@ -5,11 +5,11 @@ import Link from "next/link"
 import { motion, AnimatePresence } from "framer-motion"
 import { Download, Menu, X, Sun, Moon } from "lucide-react"
 import { Button } from "@/components/ui/button"
-import { useMobile } from "@/hooks/use-mobile"
+// import { useMobile } from "@/hooks/use-mobile"
 import { useTheme } from "next-themes"
 
 export default function Navbar() {
-  const isMobile = useMobile()
+  // const isMobile = useMobile()
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
   const [scrolled, setScrolled] = useState(false)
   const { theme, setTheme } = useTheme()
@@ -78,7 +78,13 @@ export default function Navbar() {
             )}
             <Button variant="default" size="sm" className="bg-secondary hover:bg-secondary/90">
               <Download className="mr-2 h-4 w-4" />
-              Resume
+              <a
+                href="/BivekKarki_Resume_Frontenddeveloper.pdf"
+                download="BivekKarki_Resume_Frontenddeveloper.pdf"
+                className="hidden md:block bg-green-500 text-white px-4 py-2 rounded-full hover:bg-green-600 transition"
+              >
+            Resume 
+            </a>
             </Button>
           </div>
 

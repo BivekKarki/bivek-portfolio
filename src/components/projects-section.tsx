@@ -7,6 +7,7 @@ import { Button } from "@/components/ui/button"
 import { Badge } from "@/components/ui/badge"
 import { Card, CardContent } from "@/components/ui/card"
 import { Tabs, TabsList, TabsTrigger } from "@/components/ui/tabs"
+import Image from "next/image"
 
 export default function ProjectsSection() {
   const ref = useRef(null)
@@ -164,8 +165,8 @@ export default function ProjectsSection() {
               >
                 <Card className="overflow-hidden h-full bg-background border-border/50 hover:border-primary/50 transition-colors duration-300">
                   <div className="relative overflow-hidden aspect-video">
-                    <img
-                      src={project.image || "/placeholder.svg"}
+                    <Image
+                      src={project.image || "/images/bivek1.jpg"}
                       alt={project.title}
                       className="w-full h-full object-cover transition-transform duration-500 hover:scale-105"
                     />

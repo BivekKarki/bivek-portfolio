@@ -86,6 +86,26 @@ export default function Footer() {
             </ul>
           </div>
         </div>
+        <div className="border-t border-border/50 mt-10 pt-6 flex flex-col md:flex-row justify-between items-center">
+          <p className="text-muted-foreground text-sm">© {currentYear} Bivek Karki. All rights reserved.</p>
+          <motion.p
+            className="text-sm text-muted-foreground mt-2 md:mt-0 flex items-center"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ delay: 0.5, duration: 1 }}
+          >
+            Made with
+            <motion.span
+              animate={{ scale: [1, 1.2, 1] }}
+              transition={{ duration: 1.5, repeat: Number.POSITIVE_INFINITY }}
+              className="inline-block mx-1 text-accent"
+            >
+              <Heart className="h-4 w-4 fill-current" />
+            </motion.span>
+            and Next.js
+          </motion.p>
+        </div>
+
       </div>
     </footer>
   )

@@ -93,7 +93,7 @@ export default function SkillsSection() {
         {
           name: "Django",
           level: 70,
-          description: "Building full-featured web applications with Django's ORM and admin interface.",
+          description: "Building full-featured web applications with Django&apos;s ORM and admin interface.",
         },
         {
           name: "GraphQL",
@@ -229,6 +229,7 @@ export default function SkillsSection() {
   const activeCategoryData = activeCategory ? skillCategories.find((category) => category.id === activeCategory) : null
 
   // Radar chart points calculation
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const calculateRadarPoints = (skills: any[], radius = 150) => {
     const points = []
     const centerX = radius

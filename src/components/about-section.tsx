@@ -4,6 +4,7 @@ import { useRef } from "react"
 import { motion, useInView } from "framer-motion"
 import { CheckCircle2 } from "lucide-react"
 import { Badge } from "@/components/ui/badge"
+import Image from "next/image"
 
 export default function AboutSection() {
   const ref = useRef(null)
@@ -56,7 +57,7 @@ export default function AboutSection() {
               variants={itemVariants}
               className="relative aspect-[4/5] w-full max-w-md mx-auto overflow-hidden rounded-lg shadow-xl"
             >
-              <img
+              <Image
                 src="/images/bivek.jpg?height=600&width=480"
                 alt="Bivek Karki Working"
                 className="w-full h-full object-cover"
@@ -85,14 +86,14 @@ export default function AboutSection() {
             </motion.p>
 
             <motion.p variants={itemVariants} className="text-muted-foreground">
-              I'm passionate about staying current with emerging technologies and best practices, ensuring that my work
+              I&apos;m passionate about staying current with emerging technologies and best practices, ensuring that my work
               is always innovative, efficient, and future-proof.
             </motion.p>
 
             <motion.div variants={itemVariants} className="pt-4">
               <h3 className="text-xl font-semibold mb-4">What I Offer</h3>
               <div className="grid grid-cols-2 gap-3">
-                {services.map((service, index) => (
+                {services.map((service) => (
                   <motion.div key={service} variants={itemVariants} className="flex items-center gap-2">
                     <CheckCircle2 className="h-5 w-5 text-secondary" />
                     <span>{service}</span>

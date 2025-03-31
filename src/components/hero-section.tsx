@@ -5,6 +5,7 @@ import { motion, useScroll, useTransform } from "framer-motion"
 import Link from "next/link"
 import { ArrowDown, ArrowRight, Github, Linkedin, Twitter } from "lucide-react"
 import { Button } from "@/components/ui/button"
+import Image from "next/image"
 
 export default function HeroSection() {
   const targetRef = useRef<HTMLDivElement>(null)
@@ -252,7 +253,7 @@ export default function HeroSection() {
                   }}
                 />
                 <div className="relative aspect-square w-48 md:w-64 lg:w-80 rounded-full overflow-hidden border-4 border-background mx-auto md:mx-0">
-                  <img
+                  <Image
                     src="/images/bivek1.jpg"
                     alt="Bivek Karki"
                     className="w-full h-full object-cover"
