@@ -10,6 +10,7 @@ import ServicesSection from "@/components/services-section"
 import ProjectsSection from "@/components/projects-section"
 import ContactSection from "@/components/contact-section"
 import Footer from "@/components/footer"
+import ScrollToTop from "@/components/scroll-to-top"
 
 export default function Portfolio() {
   const router = useRouter()
@@ -55,6 +56,7 @@ export default function Portfolio() {
       <ProjectsSection />
       <ContactSection />
       <Footer />
+      <ScrollToTop/>
     </div>
   )
 }
