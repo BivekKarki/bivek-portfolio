@@ -320,7 +320,7 @@ export default function SkillsSection() {
         >
           <motion.div
             variants={{
-              hidden: { opacity: 0, y: 20 },
+              hidden: { opacity: 0, y: 50 },
               visible: { opacity: 1, y: 0, transition: { duration: 0.5 } },
             }}
           >
@@ -329,7 +329,7 @@ export default function SkillsSection() {
           </motion.div>
           <motion.p
             variants={{
-              hidden: { opacity: 0, y: 20 },
+              hidden: { opacity: 0, y: 50 },
               visible: { opacity: 1, y: 0, transition: { duration: 0.5 } },
             }}
             className="text-muted-foreground"
