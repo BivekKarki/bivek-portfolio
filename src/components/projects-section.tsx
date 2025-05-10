@@ -32,7 +32,7 @@ export default function ProjectsSection() {
   const categories = [
     { id: "all", label: "All Projects" },
     { id: "web", label: "Web" },
-    { id: "mobile", label: "Mobile" },
+    // { id: "mobile", label: "Mobile" },
     { id: "design", label: "Design" },
   ]
 
@@ -49,18 +49,18 @@ export default function ProjectsSection() {
         github: "https://github.com",
       },
     },
-    {
-      id: 2,
-      title: "Travel Companion App",
-      description: "A mobile application for travelers to plan trips, discover attractions, and share experiences.",
-      image: "/images/bivek1.jpg?height=400&width=600",
-      category: "mobile",
-      tags: ["React Native", "Firebase", "Google Maps API"],
-      links: {
-        demo: "https://example.com",
-        github: "https://github.com",
-      },
-    },
+    // {
+    //   id: 2,
+    //   title: "Travel Companion App",
+    //   description: "A mobile application for travelers to plan trips, discover attractions, and share experiences.",
+    //   image: "/images/bivek1.jpg?height=400&width=600",
+    //   category: "mobile",
+    //   tags: ["React Native", "Firebase", "Google Maps API"],
+    //   links: {
+    //     demo: "https://example.com",
+    //     github: "https://github.com",
+    //   },
+    // },
     {
       id: 3,
       title: "Financial Dashboard",
@@ -73,19 +73,19 @@ export default function ProjectsSection() {
         github: "https://github.com",
       },
     },
-    {
-      id: 4,
-      title: "Health & Fitness App",
-      description:
-        "A comprehensive fitness tracking application with workout plans, nutrition tracking, and progress analytics.",
-      image: "/images/bivek1.jpg?height=400&width=600",
-      category: "mobile",
-      tags: ["Flutter", "Firebase", "RESTful API"],
-      links: {
-        demo: "https://example.com",
-        github: "https://github.com",
-      },
-    },
+    // {
+    //   id: 4,
+    //   title: "Health & Fitness App",
+    //   description:
+    //     "A comprehensive fitness tracking application with workout plans, nutrition tracking, and progress analytics.",
+    //   image: "/images/bivek1.jpg?height=400&width=600",
+    //   category: "mobile",
+    //   tags: ["Flutter", "Firebase", "RESTful API"],
+    //   links: {
+    //     demo: "https://example.com",
+    //     github: "https://github.com",
+    //   },
+    // },
     {
       id: 5,
       title: "Corporate Website Redesign",
