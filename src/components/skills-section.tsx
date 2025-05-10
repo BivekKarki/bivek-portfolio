@@ -95,11 +95,11 @@ export default function SkillsSection() {
           level: 70,
           description: "Building full-featured web applications with Django&apos;s ORM and admin interface.",
         },
-        {
-          name: "GraphQL",
-          level: 75,
-          description: "Implementing efficient data fetching with schemas, resolvers, and Apollo Server.",
-        },
+        // {
+        //   name: "GraphQL",
+        //   level: 75,
+        //   description: "Implementing efficient data fetching with schemas, resolvers, and Apollo Server.",
+        // },
       ],
     },
     {
@@ -126,38 +126,38 @@ export default function SkillsSection() {
         },
         {
           name: "Firebase",
-          level: 85,
+          level: 25,
           description: "Building real-time applications with Firestore, authentication, and cloud functions.",
         },
-        { name: "Redis", level: 70, description: "Implementing caching strategies and pub/sub messaging patterns." },
+        // { name: "Redis", level: 70, description: "Implementing caching strategies and pub/sub messaging patterns." },
       ],
     },
-    {
-      id: "mobile",
-      name: "Mobile",
-      icon: <Smartphone className="h-5 w-5" />,
-      color: "#264653", // dark teal
-      description: "Creating cross-platform mobile applications",
-      skills: [
-        {
-          name: "React Native",
-          level: 85,
-          description: "Developing cross-platform mobile apps with native modules and navigation.",
-        },
-        {
-          name: "Flutter",
-          level: 70,
-          description: "Creating beautiful UI with widgets, state management, and animations.",
-        },
-        { name: "Swift", level: 60, description: "Building iOS applications with UIKit and SwiftUI components." },
-        { name: "Kotlin", level: 65, description: "Developing Android apps with Jetpack Compose and Material Design." },
-        {
-          name: "Expo",
-          level: 80,
-          description: "Rapidly prototyping and deploying mobile apps with managed workflow.",
-        },
-      ],
-    },
+    // {
+    //   id: "mobile",
+    //   name: "Mobile",
+    //   icon: <Smartphone className="h-5 w-5" />,
+    //   color: "#264653", // dark teal
+    //   description: "Creating cross-platform mobile applications",
+    //   skills: [
+    //     {
+    //       name: "React Native",
+    //       level: 85,
+    //       description: "Developing cross-platform mobile apps with native modules and navigation.",
+    //     },
+    //     {
+    //       name: "Flutter",
+    //       level: 70,
+    //       description: "Creating beautiful UI with widgets, state management, and animations.",
+    //     },
+    //     { name: "Swift", level: 60, description: "Building iOS applications with UIKit and SwiftUI components." },
+    //     { name: "Kotlin", level: 65, description: "Developing Android apps with Jetpack Compose and Material Design." },
+    //     {
+    //       name: "Expo",
+    //       level: 80,
+    //       description: "Rapidly prototyping and deploying mobile apps with managed workflow.",
+    //     },
+    //   ],
+    // },
     {
       id: "design",
       name: "Design",
@@ -167,21 +167,21 @@ export default function SkillsSection() {
       skills: [
         {
           name: "Figma",
-          level: 90,
+          level: 70,
           description: "Creating interactive prototypes, design systems, and component libraries.",
         },
-        {
-          name: "Adobe XD",
-          level: 85,
-          description: "Designing user interfaces with auto-animate and repeat grid features.",
-        },
-        { name: "Sketch", level: 75, description: "Crafting vector designs and symbols for consistent UI elements." },
-        { name: "Photoshop", level: 70, description: "Editing and optimizing images for web and mobile applications." },
-        {
-          name: "Illustrator",
-          level: 65,
-          description: "Creating vector graphics, icons, and illustrations for digital products.",
-        },
+        // {
+        //   name: "Adobe XD",
+        //   level: 85,
+        //   description: "Designing user interfaces with auto-animate and repeat grid features.",
+        // },
+        // { name: "Sketch", level: 75, description: "Crafting vector designs and symbols for consistent UI elements." },
+        { name: "Photoshop", level: 30, description: "Editing and optimizing images for web and mobile applications." },
+        // {
+        //   name: "Illustrator",
+        //   level: 65,
+        //   description: "Creating vector graphics, icons, and illustrations for digital products.",
+        // },
       ],
     },
     {
@@ -196,12 +196,12 @@ export default function SkillsSection() {
           level: 90,
           description: "Managing code with branching strategies, rebasing, and conflict resolution.",
         },
-        {
-          name: "Docker",
-          level: 80,
-          description: "Containerizing applications with multi-stage builds and Docker Compose.",
-        },
-        { name: "CI/CD", level: 85, description: "Automating testing and deployment with GitHub Actions and Jenkins." },
+        // {
+        //   name: "Docker",
+        //   level: 80,
+        //   description: "Containerizing applications with multi-stage builds and Docker Compose.",
+        // },
+        // { name: "CI/CD", level: 85, description: "Automating testing and deployment with GitHub Actions and Jenkins." },
         {
           name: "AWS",
           level: 75,
