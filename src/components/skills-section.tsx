@@ -7,7 +7,7 @@ import { Button } from "@/components/ui/button"
 import {
   Database,
   Layout,
-  Smartphone,
+  // Smartphone,
   Server,
   Figma,
   GitBranch,
