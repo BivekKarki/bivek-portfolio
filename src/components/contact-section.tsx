@@ -10,6 +10,7 @@ import { Badge } from "@/components/ui/badge"
 import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
 import { Label } from "@/components/ui/label"
+import { toast } from "react-toastify"
 
 export default function ContactSection() {
   const ref = useRef(null)
@@ -56,7 +57,7 @@ export default function ContactSection() {
         subject: "",
         message: "",
       })
-      alert("Thank you for your message! I&apos;ll get back to you soon.")
+      toast.success("Thank you for your message! I'll get back to you soon.")
     }, 1500)
   }
 

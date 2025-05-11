@@ -11,6 +11,8 @@ import ProjectsSection from "@/components/projects-section"
 import ContactSection from "@/components/contact-section"
 import Footer from "@/components/footer"
 import ScrollToTop from "@/components/scroll-to-top"
+import { ToastContainer } from "react-toastify"
+import "react-toastify/dist/ReactToastify.css"
 
 export default function Portfolio() {
   const router = useRouter()
@@ -48,6 +50,9 @@ export default function Portfolio() {
 
   return (
     <div className="min-h-screen bg-background text-foreground">
+      <ToastContainer 
+        position="top-center"
+      />
       <Navbar />
       <HeroSection />
       <AboutSection />
