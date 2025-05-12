@@ -26,12 +26,12 @@ export default function AboutSection() {
   }
 
   const services = [
-    "Web Development",
-    "Mobile Applications",
-    "UI/UX Design",
-    "E-commerce Solutions",
-    "CMS Integration",
-    "API Development",
+    "Responsive and modern website design",
+    "Frontend and backend development",
+    "Performance optimization and SEOI/UX Design",
+    "UI Implementation (based on provided designs)",
+    "Landing Pages & Marketing Sites",
+    "API Development and Integration",
   ]
 
   return (
@@ -81,7 +81,7 @@ export default function AboutSection() {
             </motion.div>
 
             <motion.p variants={itemVariants} className="text-muted-foreground">
-              With over 5 years of experience in web and mobile development, I specialize in building modern,
+              With close to a year of experience in web development, I specialize in building modern,
               responsive, and user-friendly applications. My approach combines technical expertise with creative
               problem-solving to deliver solutions that exceed expectations.
             </motion.p>
@@ -106,19 +106,19 @@ export default function AboutSection() {
             <motion.div variants={itemVariants} className="pt-4">
               <div className="grid grid-cols-2 md:grid-cols-4 gap-4 text-center">
                 <div className="p-4 rounded-lg bg-background shadow-sm">
-                  <h4 className="text-3xl font-bold text-primary">5+</h4>
+                  <h4 className="text-3xl font-bold text-primary">1 +</h4>
                   <p className="text-sm text-muted-foreground">Years Experience</p>
                 </div>
                 <div className="p-4 rounded-lg bg-background shadow-sm">
-                  <h4 className="text-3xl font-bold text-primary">50+</h4>
+                  <h4 className="text-3xl font-bold text-primary">5 +</h4>
                   <p className="text-sm text-muted-foreground">Projects</p>
                 </div>
-                <div className="p-4 rounded-lg bg-background shadow-sm">
+                {/* <div className="p-4 rounded-lg bg-background shadow-sm">
                   <h4 className="text-3xl font-bold text-primary">30+</h4>
                   <p className="text-sm text-muted-foreground">Clients</p>
-                </div>
+                </div> */}
                 <div className="p-4 rounded-lg bg-background shadow-sm">
-                  <h4 className="text-3xl font-bold text-primary">15+</h4>
+                  <h4 className="text-3xl font-bold text-primary">10 +</h4>
                   <p className="text-sm text-muted-foreground">Technologies</p>
                 </div>
               </div>

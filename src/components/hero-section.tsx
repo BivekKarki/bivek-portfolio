@@ -123,7 +123,7 @@ export default function HeroSection() {
                   transition={{ duration: 0.5 }}
                   className="inline-block px-3 py-1 rounded-full bg-secondary/10 text-secondary text-sm font-medium"
                 >
-                  Full Stack Developer
+                  Web Developer
                 </motion.div>
 
                 <motion.h1
