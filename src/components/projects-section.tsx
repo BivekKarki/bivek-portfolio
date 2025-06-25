@@ -172,7 +172,7 @@ export default function ProjectsSection() {
                     <Image
                       src={project.image || "/images/bivek1.jpg"}
                       alt={project.title}
-                      className=" object-cover transition-transform duration-500 hover:scale-105"
+                      className=" object-fill transition-transform duration-500 hover:scale-105"
                       fill
                     />
                   </div>
