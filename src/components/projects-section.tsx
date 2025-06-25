@@ -135,7 +135,11 @@ export default function ProjectsSection() {
           </motion.p>
         </motion.div>
 
-        <motion.div variants={itemVariants} className="mb-12">
+        <motion.div variants={itemVariants} 
+            initial={{ opacity: 0, y: 50 }}
+            animate={{ opacity: 1, y: 0 }}
+            exit={{ opacity: 0, y: -50 }}
+            transition={{ duration: 0.5 }} className="mb-12">
           <Tabs defaultValue="all" className="w-full" onValueChange={setActiveTab}>
             <TabsList className="mx-auto flex justify-center">
               {categories.map((category) => (
@@ -150,10 +154,10 @@ export default function ProjectsSection() {
         <AnimatePresence mode="wait">
           <motion.div
             key={activeTab}
-            initial={{ opacity: 0, y: 20 }}
+            initial={{ opacity: 0, y: 50 }}
             animate={{ opacity: 1, y: 0 }}
-            exit={{ opacity: 0, y: -20 }}
-            transition={{ duration: 0.3 }}
+            exit={{ opacity: 0, y: -50 }}
+            transition={{ duration: 0.6 }}
             className="grid md:grid-cols-2 lg:grid-cols-3 gap-8"
           >
             {filteredProjects.map((project) => (
