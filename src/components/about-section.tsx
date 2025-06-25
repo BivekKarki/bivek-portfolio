@@ -58,7 +58,7 @@ export default function AboutSection() {
               className="relative aspect-[4/5] w-full max-w-md mx-auto overflow-hidden rounded-lg shadow-xl"
             >
               <Image
-                src="/images/bivek.jpg?height=600&width=480"
+                src="/images/about.jpg?height=600&width=480"
                 alt="Bivek Karki Working"
                 className="object-cover"
                 fill

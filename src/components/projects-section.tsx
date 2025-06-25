@@ -79,7 +79,7 @@ export default function ProjectsSection() {
       description:
         "QuickPay is a sleek, user-friendly mobile wallet app designed in Figma for seamless digital payments and money transfers.",
       image: "/images/figma.png?height=400&width=600",
-      category: "mobile",
+      category: "design",
       tags: ["Design", "Figma", "Prototyping"],
       links: {
         demo: "https://www.figma.com/proto/2vpdybW6p01FHeYff5F7xP/QuickPay--Copy-?node-id=19-10&p=f&t=FglpCe0T0XPITjKY-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=4%3A2&show-proto-sidebar=1",
