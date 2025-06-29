@@ -65,8 +65,8 @@ export default function ContactSection() {
     {
       icon: <Mail className="h-5 w-5" />,
       title: "Email",
-      value: "karki777bivek.com",
-      link: "mailto:karki777bivek.com",
+      value: "karki777bivek@gmail.com",
+      link: "mailto:karki777bivek@gmail.com",
     },
     {
       icon: <Phone className="h-5 w-5" />,
